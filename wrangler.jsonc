@@ -1,0 +1,14 @@
+// Cloudflare Workers settings for khromey.com.
+// The site is plain files: there is no build step and no server code.
+{
+  "name": "khromey-website",
+  "compatibility_date": "2026-11-12",
+  "assets": {
+    // Publish the repository root as the site (see .assetsignore for what is left out).
+    "directory": "./",
+    // Serve pages at their exact .html addresses (no stripping of ".html").
+    "html_handling": "none",
+    // Unknown addresses show 404.html.
+    "not_found_handling": "404-page"
+  }
+}

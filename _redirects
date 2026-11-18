@@ -1,0 +1,10 @@
+# Serve the home page at the bare address (needed because ".html" stripping is switched off).
+/ /index.html 200
+# Friendly addresses without ".html", in case someone types or links them that way.
+/supervision /supervision.html 301
+/organisations /organisations.html 301
+/recent-events /recent-events.html 301
+/therapy /therapy.html 301
+/about /about.html 301
+/contact /contact.html 301
+/privacy /privacy.html 301

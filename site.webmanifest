@@ -1,0 +1,9 @@
+{
+  "name": "Nataliya Khromey — EMDR Consultant & Supervisor",
+  "short_name": "Khromey EMDR",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a5f",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
